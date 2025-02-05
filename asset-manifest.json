@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/singhshreya-bhriguvanshi/Portfolio/static/css/main.685f499a.css",
+    "main.js": "/singhshreya-bhriguvanshi/Portfolio/static/js/main.f252d087.js",
+    "static/js/453.1407b060.chunk.js": "/singhshreya-bhriguvanshi/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/digital dashboard.png": "/singhshreya-bhriguvanshi/Portfolio/static/media/digital dashboard.8b4f254ce6657ee77217.png",
+    "static/media/pinterest clone.png": "/singhshreya-bhriguvanshi/Portfolio/static/media/pinterest clone.5314e98b980fdc7e5f11.png",
+    "static/media/spam detector.png": "/singhshreya-bhriguvanshi/Portfolio/static/media/spam detector.5ad77f6a32c593d3abfe.png",
+    "static/media/Stars.svg": "/singhshreya-bhriguvanshi/Portfolio/static/media/Stars.8a0c1e35dbdee9d1871f.svg",
+    "static/media/Graph.png": "/singhshreya-bhriguvanshi/Portfolio/static/media/Graph.8e60158abc344cfa8455.png",
+    "static/media/Trees.svg": "/singhshreya-bhriguvanshi/Portfolio/static/media/Trees.6947010d7683924c2b24.svg",
+    "static/media/Silhouette.svg": "/singhshreya-bhriguvanshi/Portfolio/static/media/Silhouette.94098b6d48b79ae2a99d.svg",
+    "static/media/Moon.svg": "/singhshreya-bhriguvanshi/Portfolio/static/media/Moon.b4f3fe5b459b519cfdb9.svg",
+    "index.html": "/singhshreya-bhriguvanshi/Portfolio/index.html",
+    "static/media/envelope.svg": "/singhshreya-bhriguvanshi/Portfolio/static/media/envelope.2da9f9f0571e695cc384.svg",
+    "main.685f499a.css.map": "/singhshreya-bhriguvanshi/Portfolio/static/css/main.685f499a.css.map",
+    "main.f252d087.js.map": "/singhshreya-bhriguvanshi/Portfolio/static/js/main.f252d087.js.map",
+    "453.1407b060.chunk.js.map": "/singhshreya-bhriguvanshi/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.685f499a.css",
+    "static/js/main.f252d087.js"
+  ]
+}
