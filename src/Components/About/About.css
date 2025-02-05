@@ -4,12 +4,12 @@
 
   font-size: 1.4rem;
   position: relative;
-  background: #fafafa;
+  background: #0f0f0f;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
   /* background: #fafafa url(../../Images/bg-main.jpg) center right no-repeat; */
-  background-color: #c3cbdc;
-  background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+  background-color: #0f0f0f;
+  background-image: linear-gradient(147deg, #0f0f0f 0%, #1a1a1a 74%);
 
   background-size: cover;
 }
@@ -38,6 +38,7 @@
 
 #about .title h3 {
   font-size: 2.4rem;
+  color: #e0e0e0;
 }
 
 #about .separator {
@@ -68,13 +69,13 @@
 #about .subtitle {
   font-size: 1.6rem;
   text-align: center;
-  color: inherit;
+  color: #e0e0e0;
   padding-bottom: 1.5rem;
 }
 
 #about p {
   padding-bottom: 1.5rem;
-  color: #555;
+  color: #e0e0e0;
   line-height: 1.9rem;
 }
 
@@ -85,12 +86,12 @@
 
 #about .desc {
   grid-column-end: span 2;
-  background: #ffffffaa;
+  background: rgba(255, 255, 255, 0.03);
   padding: 2rem;
   text-align: justify;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
 }
 .GraphImg {
   height: 262px;
@@ -105,12 +106,12 @@
   align-items: center;
   margin-top: 10px;
   grid-column-end: span 2;
-  background: #ffffffaa;
+  background: rgba(255, 255, 255, 0.03);
   padding: 2rem;
   text-align: justify;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
 }
 
 .graph-container img {
@@ -121,12 +122,12 @@
 #about .descTechS {
   grid-column-end: span 2;
   width: 100%;
-  background: #ffffffaa;
+  background: rgba(255, 255, 255, 0.03);
   padding: 2rem;
   text-align: justify;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
 }
 
 .SkillsMargin {
@@ -171,4 +172,19 @@
   #about .wrapper {
     padding: 10rem 2rem 8rem;
   }
+}
+
+/* Keep your existing styles but add these Tailwind-compatible utilities */
+.prose {
+  max-width: 65ch;
+  line-height: 1.75;
+}
+
+.prose p {
+  margin-bottom: 1.25em;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

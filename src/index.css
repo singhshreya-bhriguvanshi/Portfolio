@@ -1,3 +1,7 @@
+@tailwind base;         
+@tailwind components;
+@tailwind utilities;
+
 *,
 *::before,
 *::after,
@@ -9,13 +13,14 @@
 
 @import 'https://fonts.googleapis.com/css?family=Overlock:400,400i,700|Oleo+Script';
 
-html, body {
+html {
   height: 100%;
 }
 
 body {
-  color: #252934;
-  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
   font-size: 62.5%;
   font-family: 'Overlock', Arial, Helvetica, sans-serif;
   overflow-x: hidden;
@@ -32,4 +37,23 @@ a:visited {
 a:hover,
 a:active {
   color: #f300b4;
+}
+
+/* Optional: Add a subtle gradient */
+#root {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #0f0f0f, #1a1a1a);
+  /* Alternative gradients: */
+  /* background: linear-gradient(to bottom right, #111827, #1f2937); */
+  /* background: linear-gradient(45deg, #0a192f, #112240); */
+  /* background: linear-gradient(to bottom, #171717, #262626); */
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #0f0f0f, #1a1a1a);
+  /* Alternative gradients: */
+  /* background: linear-gradient(to bottom right, #111827, #1f2937); */
+  /* background: linear-gradient(45deg, #0a192f, #112240); */
+  /* background: linear-gradient(to bottom, #171717, #262626); */
 }

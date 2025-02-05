@@ -48,20 +48,30 @@ const Contact = () => {
             </p>
             <p className="separator" />
             <p className="subtitle">
-              Please, use the form below or send an email to {''}
-              <span className="mail">singhshreya.bhriguvanshi@gmail.com</span>
-              :
+              Please Connect with me at : {''}
+              {/* <span className="mail">singhshreya.bhriguvanshi@gmail.com</span> */
+              <a 
+              href="mailto:singhshreya.bhriguvanshi@gmail.com" 
+              style={{ color: "white", textDecoration: "underline" }} 
+              onMouseOver={(e) => e.target.style.color = "#f300b4"}
+              onMouseOut={(e) => e.target.style.color = "white"}
+            >
+              singhshreya.bhriguvanshi@gmail.com
+            </a>
+            
+            
+            }
             </p>
           </div>
           <SocialLinks />
         </div>
         <ToastContainer style={{marginTop:'60px'}}/>
-        <form ref={formRef} id="contact-form" onSubmit={sendEmail}>
+        {/* <form ref={formRef} id="contact-form" onSubmit={sendEmail}>
           <input placeholder="Name" name="from_name" type="text" required />
           <input placeholder="Email" name="from_email" type="email" required />
           <textarea placeholder="Message" name="message" required />
           <input className="button" id="submit" value="Submit" type="submit" />
-        </form>
+        </form> */}
         
       </div>
     </section>

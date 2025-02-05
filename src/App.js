@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Menu from './Components/Menu/Menu';
 import Nav from './Components/Nav/Nav';
 import Header from './Components/Header/Header';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import CanvasCursor from './Components/ui/CanvasCursor';
+// import Button from "./Components/Button";
 //import Footer from './Components/Footer/Footer';
 
 
@@ -27,15 +30,18 @@ class App extends Component {
 
   render() {
     return (
-      <React.Fragment>
-        <Menu toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
-        <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
-        <Header />
-        <About />
-        <Projects />
-        <Contact />
-         {/* <Footer/>  */}
-      </React.Fragment>
+      <BrowserRouter>
+        <div style={{ backgroundColor: '#0f0f0f', minHeight: '100vh' }}>
+          <CanvasCursor />
+          <Menu toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
+          <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
+          <Header />
+          <About />
+          <Projects />
+          <Contact />
+           {/* <Footer/>  */}
+        </div>
+      </BrowserRouter>
     );
   }
 

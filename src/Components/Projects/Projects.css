@@ -2,8 +2,8 @@
     min-height: 100vh;
     font-size: 1.4rem;
     position: relative;
-    background: #f0f0f0;
-    background: linear-gradient(215deg, #f0f0f0 0%,#fafafa 100%);
+    background: #0f0f0f;
+    background: linear-gradient(215deg, #0f0f0f 0%, #1a1a1a 100%);
     margin-top: -10rem;
     z-index: 1;
   }
@@ -15,7 +15,7 @@
   
   #projects a:hover,
   #projects a:active {
-    color: #252934;
+    color: #fff;
   }
   
   /* Container */
@@ -31,6 +31,7 @@
     text-align: center;
     font-size: 2.4rem;
     line-height: 2.4rem;
+    color: #e0e0e0;
   }
   
   #projects .heading .separator {
@@ -46,6 +47,7 @@
     width: 70%;
     margin: 0 auto;
     text-align: justify;
+    color: #e0e0e0;
   }
   
   /* Single Project */
@@ -63,17 +65,17 @@
   #projects .project .project-link {
     display: block;
     margin: auto 0;
-    color: #252934;
+    color: #e0e0e0;
     overflow: hidden;
     text-align: center;
     border-radius: 2%;
-    border: 1px solid #fafafa;
-    box-shadow: 0 20px 10px -10px #25293450;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 20px 10px -10px rgba(0, 0, 0, 0.5);
     transition: 300ms;
   }
   
   #projects .project .project-link:hover {
-    box-shadow: 0 50px 15px -30px #25293450;
+    box-shadow: 0 50px 15px -30px rgba(0, 0, 0, 0.5);
   }
   
   #projects .project .project-link:hover > img {
@@ -105,7 +107,7 @@
   /* Icons */
   #projects .project-details .icons {
     margin: 0;
-    color: #252934;
+    color: #e0e0e0;
   }
   
   #projects .project-details .icons i {
@@ -121,6 +123,7 @@
   
   #projects .project-details p {
     margin: 1rem 0;
+    color: #e0e0e0;
   }
   
   /* Buttons */
@@ -134,15 +137,15 @@
     padding: .5rem;
     border: none;
     border-bottom: 1px solid #f300b4;
-    color: #252934;
-    background: #fafafa;
+    color: #e0e0e0;
+    background: rgba(255, 255, 255, 0.03);
     font-size: 1.2rem;
     text-align: center;
   }
   
   #projects .project-details .buttons a:hover {
     background: #f300b4;
-    color: #fafafa;
+    color: #fff;
   }
   #projects .project-details .buttons i {
     font-size: .8rem;
@@ -239,7 +242,7 @@
   
   @media only screen and (max-width: 649px) {
     #projects {
-      background: #f0f0f0;
+      background: #0f0f0f;
     }
     #projects .projects-container {
       padding: 12rem 0 8rem;
@@ -251,7 +254,7 @@
 
   @media only screen and (max-width: 425px) {
     #projects {
-      background: #f0f0f0;
+      background: #0f0f0f;
     }
     #projects .projects-container {
       padding: 12rem 0 8rem;
