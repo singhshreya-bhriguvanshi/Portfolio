@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/singhshreya-bhriguvanshi/Portfolio/"
+  "homepage": "https://singhshreya-bhriguvanshi.github.io/Portfolio/"
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@react-spring/web": "^9.7.5",
